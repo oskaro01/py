@@ -3,6 +3,7 @@ def insertion_sort(arr):
     Insertion Sort - like sorting playing cards in your hand
     Think of it as building a sorted hand one card at a time
     """
+    # Traverse from second element to the end
     # Start from the second element (index 1) because a single element is always sorted
     for i in range(1, len(arr)):
         key = arr[i]  # This is the "current card" we're trying to insert
